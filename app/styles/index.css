@@ -1,0 +1,21 @@
+.navbar-nav
+{
+		height: 80px;
+}
+
+
+.navbar-default .navbar-nav > li > a
+{
+	color: black;
+	font-weight: bolder;
+	font-size: 20px;
+	position: relative;
+	top: 10px;
+}
+
+#logo
+{
+	position: relative;
+	left: -20%;
+	height: 100px;
+}
