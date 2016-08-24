@@ -5,10 +5,15 @@
 
 #waiting
 {
-	font-size: 20px;
+	font-size: 15px;
+}
+.form-control
+{
+	width: 80%;
 }
 
-body
+#message
 {
-	color: green;
+	width: 215%;
+
 }
