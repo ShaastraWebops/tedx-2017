@@ -4,16 +4,25 @@
 	left: 0%;
 	top: 100px;
 	width: 100%;
-	height: 330px;
-	background-color: black;
+	height: 331px;
+	background-color: white;
+}
+
+#rippleimg
+{
+	position: relative;
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 331px;
 }
 
 #heading
 {
-	color: white;
-	position: relative;
-	top: 30%;
-	left: 5%;
+	position: absolute;
+	color: black;
+	top: 250px;
+	left: 300px;
 	font-weight: bolder;
 	font-size: 60px;
 

@@ -1,0 +1,62 @@
+#Heading
+{
+	
+	position: absolute;
+	font-size:40px ;
+	left: 10%;
+	top: 150px;
+}
+
+#shiz
+{
+	position: absolute;
+	font-size: 20px;
+	left:10%;
+	top:240px;
+}
+
+
+
+#slideshow
+{
+  position: absolute;
+  left: 20%;
+  top: 350px;
+  width: 50%;
+  height: 330px;
+  background-color: black;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img 
+  {
+      width: 100%;
+      height: 100%;
+      margin: auto;
+  }
+
+#myCarousel .carouselinner
+{
+  height: 330px;
+}
+#button1
+{
+	position: absolute;
+	left: 20%;
+	top: 750px;
+	width:20%;
+	background-color: #663399;
+}
+
+#button2
+{
+	position: absolute;
+	left: 35%;
+	top: 750px;
+	width:20%;
+	background-color: #663399;
+}
+div.item
+{
+  height: 330px;
+}
