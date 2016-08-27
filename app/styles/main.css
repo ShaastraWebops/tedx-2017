@@ -1,9 +1,9 @@
 #slideshow
 {
   position: absolute;
-  left: 15%;
+  left: 0%;
   top: 100px;
-  width: 70%;
+  width: 100%;
   height: 330px;
   background-color: black;
 }
@@ -27,22 +27,88 @@ div.item
 }
 
 
+
+
+
+
+
+
+
+
+
 #speakers
 {
   position: absolute;
-  left: 7%;
+  left: 0%;
   top: 450px;
-  width: 90%;
-  height: 700px;
+  width: 100%;
+  height: 100px;
 }
+
+
+
+#speaker1
+{
+   width: 300px;
+   height: 300px;
+   background-color: blue;
+   margin-left: 100px;
+
+}
+
+#speaker2
+{
+   width: 300px;
+   height: 300px;
+   background-color: blue;
+   margin-left: 50px;
+
+}
+
+#speaker3
+{
+   width: 300px;
+   height: 300px;
+   background-color: blue;
+}
+
+#speaker4
+{
+   width: 300px;
+   height: 300px;
+   background-color: blue;
+   margin-left: 100px;
+}
+
+
+#speaker5
+{
+   width: 300px;
+   height: 300px;
+   background-color: blue;
+   margin-left: 50px;
+}
+
+#speaker6
+{
+   width: 300px;
+   height: 300px;
+   background-color: blue;
+}
+
+
+
+
+
+
 
 #venue
 {
   position: absolute;
-  left: 7%;
-  top: 1200px;
-  width: 90%;
-  height: 350px;
+  left: 0%;
+  top: 1250px;
+  width: 100%;
+  height: 500px;
   background-color: gray;
 }
 
@@ -65,181 +131,5 @@ div.item
 {
   font-size: 20px;
 }
-
-
-#speaker1
-{
-  position: absolute;
-  left: 70px;
-  top: 550px;
-  width: 250px;
-  height: 250px;
-  background-color: yellow;
-}
-
-#speaker2
-{
-  position: absolute;
-  left: 450px;
-  top: 550px;
-  width: 250px;
-  height: 250px;
-  background-color: yellow;
-}
-
-#speaker3
-{
-  position: absolute;
-  left: 800px;
-  top: 550px;
-  width: 250px;
-  height: 250px;
-  background-color: yellow;
-}
-
-#speaker4
-{
-  position: absolute;
-  left: 70px;
-  top: 900px;
-  width: 250px;
-  height: 250px;
-  background-color: yellow;
-}
-
-
-#speaker5
-{
-  position: absolute;
-  left: 450px;
-  top: 900px;
-  width: 250px;
-  height: 250px;
-  background-color: yellow;
-}
-
-#speaker6
-{
-  position: absolute;
-  left: 800px;
-  top: 900px;
-  width: 250px;
-  height: 250px;
-  background-color: yellow;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-#name1 {
-  position: absolute;
-    left: 70px;
-    top: 550px;
-    width: 125px;
-    height: 250px;
-    opacity: 0.4;
-    z-index: 50;
-    background-color: red;
-    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s;
-}
-
-#name1:hover {
-    width: 250px;
-}
-#name2 {
-  position: absolute;
-    left: 450px;
-  top: 550px;
-  width: 125px;
-  height: 250px;
-  opacity: 0.4;
-  z-index: 50;
-  background-color: red;
-    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s;
-}
-
-#name2:hover {
-    width: 250px;
-}
-#name3 {
-  position: absolute;
-    position: absolute;
-  left: 800px;
-  top: 550px;
-  width: 125px;
-  height: 250px;
-  opacity: 0.4;
-  z-index: 50;
-  background-color: red;
-    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s;
-}
-
-#name3:hover {
-    width: 250px;
-}
-#name4 {
-  position: absolute;
-    left: 70px;
-  top: 900px;
-  width: 125px;
-  height: 250px;
-  opacity: 0.4;
-  z-index: 50;
-  background-color: red;
-    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s;
-}
-
-#name4:hover {
-    width: 250px;
-}
-#name5 {position: absolute;
-  left: 450px;
-  top: 900px;
-  width: 125px;
-  height: 250px;
-  opacity: 0.4;
-  z-index: 50;
-  background-color: red;
-    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s;
-}
-
-#name5:hover {
-    width: 250px;
-}
-#name6 {
-  position: absolute;
-  left: 800px;
-  top: 900px;
-  width: 125px;
-  height: 250px;
-  opacity: 0.4;
-  z-index: 50;
-  background-color: red;
-    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s;
-    font-size: 40px;
-}
-
-#name6:hover {
-    width: 250px;
-}
-
-
-
-
 
 
