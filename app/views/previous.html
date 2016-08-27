@@ -111,12 +111,23 @@
   	</body>
 
   	<script type="text/javascript">
+
   		document.getElementById("home").className = "inactive";
   		document.getElementById("ripple").className = "inactive";
   		document.getElementById("sponsors").className = "inactive";
   		document.getElementById("contact").className = "inactive";
   		document.getElementById("previous").className = "active";
+
   	</script>	
+
+    <script>
+      
+        $('#myCarousel').carousel(
+        {
+          interval: 2500,
+          cycle: true
+        }); 
+    </script>
 
 
 </html>

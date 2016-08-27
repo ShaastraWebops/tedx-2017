@@ -11,7 +11,7 @@
 
    <script   src="https://code.jquery.com/jquery-3.1.0.js"> </script>
 
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" > </script>
+   
 
 
 
@@ -85,7 +85,7 @@
 
   <div id="speakers">
 
-    <h1 style="position: relative; left : 5%;"> SPEAKERS </h1>
+    <h1 style="position: relative; left : 5%; font-weight: bolder; "> SPEAKERS </h1>
 
     <br>
 
@@ -93,24 +93,24 @@
 
         <div class="col-md-4">
 
-              <div id="speaker1">                  
-                <p id="name1"> SPEAKER 1 </p> 
+              <div class="speakerno" id="speaker1" data-toggle="modal" data-target="#modal1">                  
+                <div class="nameno" id="name1"> SPEAKER 1 </div> 
               </div>
 
         </div>
 
         <div class="col-md-4">
 
-              <div id="speaker2">
-                  <div id="name2"> SPEAKER 2 </div>
+              <div class="speakerno" id="speaker2" data-toggle="modal" data-target="#modal2">
+                  <div class="nameno" id="name2"> SPEAKER 2 </div>
               </div>
 
         </div>
 
         <div class="col-md-4">
 
-              <div id="speaker3">
-                  <div id="name3"> SPEAKER 3 </div>
+              <div class="speakerno" id="speaker3" data-toggle="modal" data-target="#modal3">
+                  <div class="nameno" id="name3"> SPEAKER 3 </div>
               </div>
 
         </div>
@@ -123,24 +123,24 @@
 
         <div class="col-md-4">
 
-              <div id="speaker4">
-                  <div id="name4"> SPEAKER 4 </div>
+              <div class="speakerno" id="speaker4" data-toggle="modal" data-target="#modal4">
+                  <div class="nameno" id="name4"> SPEAKER 4 </div>
               </div>
 
         </div>
 
         <div class="col-md-4">
 
-              <div id="speaker5">
-                  <div id="name5"> SPEAKER 5</div>
+              <div class="speakerno" id="speaker5" data-toggle="modal" data-target="#modal5">
+                  <div class="nameno" id="name5"> SPEAKER 5</div>
               </div>
 
         </div>
 
         <div class="col-md-4">
 
-              <div id="speaker6">
-                  <div id="name6"> SPEAKER 6</div>
+              <div class="speakerno" id="speaker6" data-toggle="modal" data-target="#modal6">
+                  <div class="nameno" id="name6"> SPEAKER 6</div>
               </div>
 
         </div>
@@ -151,33 +151,113 @@
 
 
 
-  <!-- Modal -->
-  <div class="modal" id="myModal1" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
-        </div>
-        <div class="modal-body">
-          <p>Some text in the modal.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
+<div id="modal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+        <h4 class="modal-title" id="myModalLabel">title</h4>
       </div>
-      
+      <div class="modal-body">
+        body
+      </div>
+      <div class="modal-footer">
+        footer
+      </div>
     </div>
   </div>
+</div>
 
+<div id="modal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+        <h4 class="modal-title" id="myModalLabel">title</h4>
+      </div>
+      <div class="modal-body">
+        body
+      </div>
+      <div class="modal-footer">
+        footer
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+        <h4 class="modal-title" id="myModalLabel">title</h4>
+      </div>
+      <div class="modal-body">
+        body
+      </div>
+      <div class="modal-footer">
+        footer
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+        <h4 class="modal-title" id="myModalLabel">title</h4>
+      </div>
+      <div class="modal-body">
+        body
+      </div>
+      <div class="modal-footer">
+        footer
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+        <h4 class="modal-title" id="myModalLabel">title</h4>
+      </div>
+      <div class="modal-body">
+        body
+      </div>
+      <div class="modal-footer">
+        footer
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+        <h4 class="modal-title" id="myModalLabel">title</h4>
+      </div>
+      <div class="modal-body">
+        body
+      </div>
+      <div class="modal-footer">
+        footer
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
 
  <div id="venue">
-    <h1 style="position: relative; left : 5%;"> VENUE </h1>
+    <h1 style="position: relative; left : 5%; font-weight: bolder; "> VENUE </h1>
   </div>
 
   <div id="para">
@@ -189,12 +269,22 @@
 
   </div>
 
+
+
+
+
+
+
+
+
   <script type="text/javascript">
+
     document.getElementById("home").className = "active";
     document.getElementById("ripple").className = "inactive";
     document.getElementById("sponsors").className = "inactive";
     document.getElementById("contact").className = "inactive";
     document.getElementById("previous").className = "inactive";
+
   </script> 
 
   <script type="text/javascript">
@@ -204,6 +294,11 @@
       e.preventDefault();
     });
 
+    $('#myCarousel').carousel(
+    {
+      interval: 2500,
+      cycle: true
+    }); 
 
 
   </script>
