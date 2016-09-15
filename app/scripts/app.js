@@ -25,6 +25,11 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
+         })
+      .when('/events', {
+        templateUrl: 'views/events.html',
+        controller: 'EventsCtrl',
+        controllerAs: 'event'
       })
       .when('/ripple', {
         templateUrl: 'views/ripple.html',

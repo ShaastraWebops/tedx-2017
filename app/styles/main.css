@@ -62,7 +62,7 @@ div.item
 #speakers
 {
   position: absolute;
-  left: 5%;
+  left: 7%;
   top: 520px;
   width: 80%;
   height: 100px;
@@ -197,18 +197,26 @@ div.item
   left: 15%;
   top: 1320px;
   width: 70%;
-  height: 500px;
+  height: 600px;
   background-color:white;
   margin : auto;
+}
+
+#map
+{
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  height: 85%;
 }
 
 #para
 {
   position: absolute;
   left: 7%;
-  top: 1870px;
+  top: 1950px;
   width: 90%;
-  height: 300px;
+  height: 350px;
   text-align: center;
 }
 
@@ -220,17 +228,28 @@ div.item
 #RegisterNow{
 
   position: absolute;
-  color:#E21C21;
-  top:545px;
+  top:600px;
   left:920px;
+}
+
+#RegisterNow > a
+{
+  color: black;
+  text-decoration: none;
+}
+
+#RegisterNow2 > a
+{
+  color: black;
+  text-decoration: none;
 }
 
 #RegisterNow2{
 
   position: absolute;
-  color:#E21C21;
-  top:2175px;
+  top:2222px;
   left:620px;
+  height: 
 }
 
 #tedx

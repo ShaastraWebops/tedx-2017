@@ -2,6 +2,7 @@
 {
 		height: 80px;
 		background-color: #bdc3c7;
+		z-index: 100;
 }
 
 .nav .navbar-nav .fixed
@@ -16,6 +17,8 @@
 	font-size: 18px;
 	position: relative;
 	top: 10px;
+	padding-right: 10%;
+	padding-left: 10%;
 }
 
 #logo
@@ -23,6 +26,7 @@
 	position: relative;
 	left: -20%;
 	height: 100px;
+	padding-right: 0%;
 }
 
 body
