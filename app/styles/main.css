@@ -1,11 +1,11 @@
 #slideshow
 {
   position: absolute;
-  left: 0%;
+  left: 15%;
   top: 100px;
-  width: 100%;
+  width: 70%;
   height: 400px;
-  background-color: black;
+  background-color: #E21C21;
   margin : 0;
 }
 
@@ -19,7 +19,8 @@ body
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img 
   {
-      width: 100%;
+      left:15%;
+      width: 70%;
       height: 100%;
       margin: auto;
   }
@@ -74,7 +75,7 @@ div.item
 {
    width: 300px;
    height: 300px;
-   background-color: blue;
+   z-index: -20;
 }
 
 .nameno
@@ -89,6 +90,7 @@ div.item
   font-weight: bolder;
   font-size: 22px;
   display: none;
+  z-index: 10;
 }
 
 .speakerno:hover .nameno
@@ -100,6 +102,7 @@ div.item
 {
     margin-left: 100px;
 }
+
 
 
 #speaker2
@@ -119,11 +122,74 @@ div.item
     margin-left: 50px;
 }
 
+#sppic1
+{
+  position: absolute;
+  left: 100px;
+  top: 90%;
+  width: 299px;
+  height: 302px;
+  z-index: -15;
+
+}
 
 
 
+#sppic2
+{
+  position: absolute;
+  left: 403px;
+  top: 90%;
+  width: 299px;
+  height: 302px;
+  z-index: -15;
+
+}
+
+#sppic3
+{
+  position: absolute;
+  left: 706px;
+  top: 90%;
+  width: 299px;
+  height: 302px;
+  z-index: -15;
+
+}
 
 
+#sppic4
+{
+  position: absolute;
+  left: 100px;
+  top: 445%;
+  width: 299px;
+  height: 302px;
+  z-index: -15;
+
+}
+
+#sppic5
+{
+  position: absolute;
+  left: 403px;
+  top: 445%;
+  width: 299px;
+  height: 302px;
+  z-index: -15;
+
+}
+
+#sppic6
+{
+  position: absolute;
+  left: 706px;
+  top: 445%;
+  width: 299px;
+  height: 302px;
+  z-index: -15;
+
+}
 
 #venue
 {
@@ -149,6 +215,22 @@ div.item
 #what
 {
   font-size: 40px;
+}
+
+#RegisterNow{
+
+  position: absolute;
+  color:#E21C21;
+  top:545px;
+  left:920px;
+}
+
+#RegisterNow2{
+
+  position: absolute;
+  color:#E21C21;
+  top:2175px;
+  left:620px;
 }
 
 #tedx
